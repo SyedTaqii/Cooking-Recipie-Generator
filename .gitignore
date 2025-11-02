@@ -1,0 +1,9 @@
+# Ignore the large model folder
+final_recipe_model/
+
+# Also ignore the .zip file
+my_model.zip
+
+# Ignore Python's cache files
+__pycache__/
+*.pyc
