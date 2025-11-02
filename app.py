@@ -14,7 +14,7 @@ def load_model():
     print("Loading fine-tuned model...")
     # This path assumes 'final_recipe_model' is in the same
     # directory as this 'app.py' file.
-    model_path = './final_recipe_model'
+    model_path = "syedtaqi/recipie-generator"
     
     # Check if a GPU is available, otherwise use CPU
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
@@ -45,7 +45,6 @@ def load_model():
 # Load the model once when the app starts
 model, tokenizer, device = load_model()
 
-# --- 2. The Inference Function (Corrected) ---
 # --- 2. The Inference Function (Corrected) ---
 def generate_recipe(title, ingredients):
     """
