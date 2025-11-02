@@ -5,8 +5,6 @@ This application is live on Streamlit Community Cloud.
 
 [https://cooking-recipie-generator-taqi-tallal.streamlit.app/]()
 
-*(Replace the URL above with your actual Streamlit Cloud link)*
-
 ## 1. Project Overview
 
 This project fine-tunes a GPT-2 model to generate creative cooking recipes from a title and a list of ingredients. It is the first of three tasks in a transformer fine-tuning assignment.
